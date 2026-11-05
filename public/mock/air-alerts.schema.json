@@ -1,0 +1,118 @@
+{
+  "fields": [
+    {
+      "name": "region",
+      "label": "Область",
+      "type": "select",
+      "required": true,
+      "options": [
+        {
+          "value": "vinnytsia",
+          "label": "Вінницька"
+        },
+        {
+          "value": "volyn",
+          "label": "Волинська"
+        },
+        {
+          "value": "dnipro",
+          "label": "Дніпропетровська"
+        },
+        {
+          "value": "donetsk",
+          "label": "Донецька"
+        },
+        {
+          "value": "zhytomyr",
+          "label": "Житомирська"
+        },
+        {
+          "value": "zakarpattia",
+          "label": "Закарпатська"
+        },
+        {
+          "value": "zaporizhzhia",
+          "label": "Запорізька"
+        },
+        {
+          "value": "ivano_frankivsk",
+          "label": "Івано-Франківська"
+        },
+        {
+          "value": "kyiv",
+          "label": "Київська"
+        },
+        {
+          "value": "kyiv_city",
+          "label": "м. Київ"
+        },
+        {
+          "value": "kirovohrad",
+          "label": "Кіровоградська"
+        },
+        {
+          "value": "luhansk",
+          "label": "Луганська"
+        },
+        {
+          "value": "lviv",
+          "label": "Львівська"
+        },
+        {
+          "value": "mykolaiv",
+          "label": "Миколаївська"
+        },
+        {
+          "value": "odesa",
+          "label": "Одеська"
+        },
+        {
+          "value": "poltava",
+          "label": "Полтавська"
+        },
+        {
+          "value": "rivne",
+          "label": "Рівненська"
+        },
+        {
+          "value": "sumy",
+          "label": "Сумська"
+        },
+        {
+          "value": "ternopil",
+          "label": "Тернопільська"
+        },
+        {
+          "value": "kharkiv",
+          "label": "Харківська"
+        },
+        {
+          "value": "kherson",
+          "label": "Херсонська"
+        },
+        {
+          "value": "khmelnytskyi",
+          "label": "Хмельницька"
+        },
+        {
+          "value": "cherkasy",
+          "label": "Черкаська"
+        },
+        {
+          "value": "chernivtsi",
+          "label": "Чернівецька"
+        },
+        {
+          "value": "chernihiv",
+          "label": "Чернігівська"
+        }
+      ]
+    },
+    {
+      "name": "start",
+      "label": "Початок (година)",
+      "type": "date",
+      "required": true
+    }
+  ]
+}

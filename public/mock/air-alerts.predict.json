@@ -1,0 +1,92 @@
+{
+  "result": {
+    "region": "lviv",
+    "hourly": [
+      {
+        "ts": "2026-10-18T14:00:00+03:00",
+        "probability": 0.252
+      },
+      {
+        "ts": "2026-10-18T15:00:00+03:00",
+        "probability": 0.321
+      },
+      {
+        "ts": "2026-10-18T16:00:00+03:00",
+        "probability": 0.301
+      },
+      {
+        "ts": "2026-10-18T17:00:00+03:00",
+        "probability": 0.301
+      },
+      {
+        "ts": "2026-10-18T18:00:00+03:00",
+        "probability": 0.298
+      },
+      {
+        "ts": "2026-10-18T19:00:00+03:00",
+        "probability": 0.218
+      }
+    ],
+    "expected_duration_min": 35.0
+  },
+  "explanation": {
+    "base_value": 0.107,
+    "contributions": [
+      {
+        "feature": "cnt_72h",
+        "label": "Тривоги тут за 72 год: 35",
+        "value": "35",
+        "impact": 0.096
+      },
+      {
+        "feature": "active_now",
+        "label": "Тривога триває зараз: ні",
+        "value": "0",
+        "impact": -0.046
+      },
+      {
+        "feature": "rate_28d",
+        "label": "Частота для області й години за 28 днів: 25 %",
+        "value": "0.25",
+        "impact": 0.044
+      },
+      {
+        "feature": "hours_since_last",
+        "label": "Від останньої тривоги: 3 год",
+        "value": "3",
+        "impact": 0.038
+      },
+      {
+        "feature": "nat_cnt_6h",
+        "label": "Тривоги по Україні за 6 год: 49",
+        "value": "49",
+        "impact": 0.019
+      },
+      {
+        "feature": "region",
+        "label": "Область: Львівська",
+        "value": "lviv",
+        "impact": -0.017
+      },
+      {
+        "feature": "cnt_24h",
+        "label": "Тривоги тут за 24 год: 11",
+        "value": "11",
+        "impact": 0.016
+      },
+      {
+        "feature": "dow",
+        "label": "День тижня: неділя",
+        "value": "6",
+        "impact": -0.009
+      },
+      {
+        "feature": "_other",
+        "label": "Інші фактори",
+        "value": "",
+        "impact": 0.004
+      }
+    ]
+  },
+  "model_version": "air-alerts@2026-10-19"
+}

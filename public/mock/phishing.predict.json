@@ -1,0 +1,93 @@
+{
+  "result": {
+    "probability": 1.0,
+    "verdict": "phishing",
+    "parts": [
+      {
+        "text": "http://",
+        "kind": "scheme",
+        "flag": "no_https"
+      },
+      {
+        "text": "olx-dostavka.",
+        "kind": "subdomain",
+        "flag": "brand_in_subdomain"
+      },
+      {
+        "text": "secure-pay24",
+        "kind": "domain",
+        "flag": "digits_hyphen_domain"
+      },
+      {
+        "text": ".top",
+        "kind": "tld",
+        "flag": "rare_tld"
+      },
+      {
+        "text": "/ua/login",
+        "kind": "path",
+        "flag": "login_in_path"
+      }
+    ]
+  },
+  "explanation": {
+    "base_value": 0.714,
+    "contributions": [
+      {
+        "feature": "rare_tld",
+        "label": "Надійність TLD: 2 %",
+        "value": "0.02",
+        "impact": 0.112
+      },
+      {
+        "feature": "entropy_host",
+        "label": "Ентропія домену: 4.12",
+        "value": "4.12",
+        "impact": 0.059
+      },
+      {
+        "feature": "n_subdomains",
+        "label": "Кількість піддоменів: 1",
+        "value": "1",
+        "impact": 0.033
+      },
+      {
+        "feature": "n_suspicious",
+        "label": "Підозрілі слова в домені: 2",
+        "value": "2",
+        "impact": 0.026
+      },
+      {
+        "feature": "digits_hyphen_domain",
+        "label": "Дефіси в домені: 2",
+        "value": "2",
+        "impact": 0.023
+      },
+      {
+        "feature": "brand_in_subdomain",
+        "label": "Бренд у піддомені: так",
+        "value": "1",
+        "impact": 0.016
+      },
+      {
+        "feature": "host_len",
+        "label": "Довжина домену: 29",
+        "value": "29",
+        "impact": 0.011
+      },
+      {
+        "feature": "n_digits",
+        "label": "Цифри в домені: 2",
+        "value": "2",
+        "impact": 0.005
+      },
+      {
+        "feature": "_other",
+        "label": "Інші фактори",
+        "value": "",
+        "impact": 0.002
+      }
+    ]
+  },
+  "model_version": "phishing@2026-10-19"
+}

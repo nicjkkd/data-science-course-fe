@@ -1,0 +1,457 @@
+{
+  "fields": [
+    {
+      "name": "brand",
+      "label": "Марка",
+      "type": "select",
+      "required": true,
+      "options": [
+        {
+          "value": "volkswagen",
+          "label": "Volkswagen"
+        },
+        {
+          "value": "bmw",
+          "label": "BMW"
+        },
+        {
+          "value": "audi",
+          "label": "Audi"
+        },
+        {
+          "value": "renault",
+          "label": "Renault"
+        },
+        {
+          "value": "skoda",
+          "label": "Skoda"
+        },
+        {
+          "value": "mercedes-benz",
+          "label": "Mercedes-Benz"
+        },
+        {
+          "value": "ford",
+          "label": "Ford"
+        },
+        {
+          "value": "lada",
+          "label": "ВАЗ"
+        },
+        {
+          "value": "opel",
+          "label": "Opel"
+        },
+        {
+          "value": "nissan",
+          "label": "Nissan"
+        },
+        {
+          "value": "toyota",
+          "label": "Toyota"
+        },
+        {
+          "value": "hyundai",
+          "label": "Hyundai"
+        },
+        {
+          "value": "mazda",
+          "label": "Mazda"
+        },
+        {
+          "value": "chevrolet",
+          "label": "Chevrolet"
+        },
+        {
+          "value": "kia",
+          "label": "Kia"
+        },
+        {
+          "value": "peugeot",
+          "label": "Peugeot"
+        },
+        {
+          "value": "daewoo",
+          "label": "Daewoo"
+        },
+        {
+          "value": "mitsubishi",
+          "label": "Mitsubishi"
+        },
+        {
+          "value": "honda",
+          "label": "Honda"
+        },
+        {
+          "value": "tesla",
+          "label": "Tesla"
+        },
+        {
+          "value": "citroen",
+          "label": "Citroen"
+        },
+        {
+          "value": "zaz",
+          "label": "ЗАЗ"
+        },
+        {
+          "value": "lexus",
+          "label": "Lexus"
+        },
+        {
+          "value": "jeep",
+          "label": "Jeep"
+        },
+        {
+          "value": "volvo",
+          "label": "Volvo"
+        },
+        {
+          "value": "subaru",
+          "label": "Subaru"
+        },
+        {
+          "value": "fiat",
+          "label": "Fiat"
+        },
+        {
+          "value": "land",
+          "label": "Land"
+        },
+        {
+          "value": "chery",
+          "label": "Chery"
+        },
+        {
+          "value": "dacia",
+          "label": "Dacia"
+        },
+        {
+          "value": "dodge",
+          "label": "Dodge"
+        },
+        {
+          "value": "infiniti",
+          "label": "Infiniti"
+        },
+        {
+          "value": "geely",
+          "label": "Geely"
+        },
+        {
+          "value": "porsche",
+          "label": "Porsche"
+        },
+        {
+          "value": "seat",
+          "label": "SEAT"
+        },
+        {
+          "value": "gaz",
+          "label": "ГАЗ"
+        },
+        {
+          "value": "suzuki",
+          "label": "Suzuki"
+        },
+        {
+          "value": "jaguar",
+          "label": "Jaguar"
+        },
+        {
+          "value": "mini",
+          "label": "MINI"
+        },
+        {
+          "value": "ssangyong",
+          "label": "SsangYong"
+        }
+      ]
+    },
+    {
+      "name": "model",
+      "label": "Модель",
+      "type": "text",
+      "required": true
+    },
+    {
+      "name": "year",
+      "label": "Рік",
+      "type": "number",
+      "required": true,
+      "min": 1990.0,
+      "max": 2026.0,
+      "step": 1.0
+    },
+    {
+      "name": "mileage_km",
+      "label": "Пробіг, км",
+      "type": "number",
+      "required": true,
+      "min": 0.0,
+      "max": 1500000.0,
+      "step": 1000.0
+    },
+    {
+      "name": "engine_l",
+      "label": "Об'єм, л",
+      "type": "number",
+      "required": true,
+      "min": 0.5,
+      "max": 8.0,
+      "step": 0.1
+    },
+    {
+      "name": "fuel",
+      "label": "Пальне",
+      "type": "select",
+      "required": true,
+      "options": [
+        {
+          "value": "petrol",
+          "label": "Бензин"
+        },
+        {
+          "value": "diesel",
+          "label": "Дизель"
+        },
+        {
+          "value": "hybrid",
+          "label": "Гібрид"
+        },
+        {
+          "value": "electric",
+          "label": "Електро"
+        },
+        {
+          "value": "gas",
+          "label": "Газ/бензин"
+        }
+      ]
+    },
+    {
+      "name": "gearbox",
+      "label": "КПП",
+      "type": "select",
+      "required": true,
+      "options": [
+        {
+          "value": "manual",
+          "label": "Механіка"
+        },
+        {
+          "value": "auto",
+          "label": "Автомат"
+        }
+      ]
+    },
+    {
+      "name": "body",
+      "label": "Кузов",
+      "type": "select",
+      "required": true,
+      "options": [
+        {
+          "value": "sedan",
+          "label": "Седан"
+        },
+        {
+          "value": "wagon",
+          "label": "Універсал"
+        },
+        {
+          "value": "hatchback",
+          "label": "Хетчбек"
+        },
+        {
+          "value": "suv",
+          "label": "Позашляховик / кросовер"
+        },
+        {
+          "value": "minivan",
+          "label": "Мінівен"
+        },
+        {
+          "value": "coupe",
+          "label": "Купе"
+        },
+        {
+          "value": "pickup",
+          "label": "Пікап"
+        },
+        {
+          "value": "liftback",
+          "label": "Ліфтбек"
+        },
+        {
+          "value": "convertible",
+          "label": "Кабріолет"
+        }
+      ]
+    },
+    {
+      "name": "drive",
+      "label": "Привід",
+      "type": "select",
+      "required": false,
+      "options": [
+        {
+          "value": "fwd",
+          "label": "Передній"
+        },
+        {
+          "value": "rwd",
+          "label": "Задній"
+        },
+        {
+          "value": "awd",
+          "label": "Повний"
+        }
+      ]
+    },
+    {
+      "name": "region",
+      "label": "Регіон",
+      "type": "select",
+      "required": true,
+      "options": [
+        {
+          "value": "vinnytsia",
+          "label": "Вінницька"
+        },
+        {
+          "value": "volyn",
+          "label": "Волинська"
+        },
+        {
+          "value": "dnipro",
+          "label": "Дніпропетровська"
+        },
+        {
+          "value": "donetsk",
+          "label": "Донецька"
+        },
+        {
+          "value": "zhytomyr",
+          "label": "Житомирська"
+        },
+        {
+          "value": "zakarpattia",
+          "label": "Закарпатська"
+        },
+        {
+          "value": "zaporizhzhia",
+          "label": "Запорізька"
+        },
+        {
+          "value": "ivano_frankivsk",
+          "label": "Івано-Франківська"
+        },
+        {
+          "value": "kyiv",
+          "label": "Київська"
+        },
+        {
+          "value": "kyiv_city",
+          "label": "м. Київ"
+        },
+        {
+          "value": "kirovohrad",
+          "label": "Кіровоградська"
+        },
+        {
+          "value": "luhansk",
+          "label": "Луганська"
+        },
+        {
+          "value": "lviv",
+          "label": "Львівська"
+        },
+        {
+          "value": "mykolaiv",
+          "label": "Миколаївська"
+        },
+        {
+          "value": "odesa",
+          "label": "Одеська"
+        },
+        {
+          "value": "poltava",
+          "label": "Полтавська"
+        },
+        {
+          "value": "rivne",
+          "label": "Рівненська"
+        },
+        {
+          "value": "sumy",
+          "label": "Сумська"
+        },
+        {
+          "value": "ternopil",
+          "label": "Тернопільська"
+        },
+        {
+          "value": "kharkiv",
+          "label": "Харківська"
+        },
+        {
+          "value": "kherson",
+          "label": "Херсонська"
+        },
+        {
+          "value": "khmelnytskyi",
+          "label": "Хмельницька"
+        },
+        {
+          "value": "cherkasy",
+          "label": "Черкаська"
+        },
+        {
+          "value": "chernivtsi",
+          "label": "Чернівецька"
+        },
+        {
+          "value": "chernihiv",
+          "label": "Чернігівська"
+        },
+        {
+          "value": "crimea",
+          "label": "АР Крим"
+        },
+        {
+          "value": "sevastopol",
+          "label": "м. Севастополь"
+        }
+      ]
+    },
+    {
+      "name": "condition",
+      "label": "Стан",
+      "type": "radio",
+      "required": true,
+      "options": [
+        {
+          "value": "undamaged",
+          "label": "Непошкоджене"
+        },
+        {
+          "value": "repaired",
+          "label": "Відремонтоване"
+        },
+        {
+          "value": "needs_repair",
+          "label": "Потребує ремонту"
+        }
+      ],
+      "default": "undamaged"
+    },
+    {
+      "name": "listing_price_usd",
+      "label": "Ціна в оголошенні, $",
+      "type": "number",
+      "required": false,
+      "min": 1.0
+    }
+  ]
+}

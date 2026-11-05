@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "brand": "volkswagen",
+    "model": "Passat",
+    "year": 2016,
+    "mileage_km": 187000,
+    "engine_l": 2.0,
+    "fuel": "diesel",
+    "gearbox": "auto",
+    "body": "wagon",
+    "region": "lviv",
+    "condition": "undamaged",
+    "listing_price_usd": 10900
+  },
+  "text_flags": [
+    "repaint",
+    "service_history"
+  ],
+  "confidence": 0.82
+}

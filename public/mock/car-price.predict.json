@@ -1,0 +1,76 @@
+{
+  "result": {
+    "price_usd": 14717.0,
+    "range_usd": [
+      12928.0,
+      16685.0
+    ],
+    "listing_price_usd": 10900.0,
+    "delta_pct": -25.9,
+    "verdict": "below",
+    "text_flags": [
+      "repaint",
+      "service_history"
+    ]
+  },
+  "explanation": {
+    "base_value": 8807.0,
+    "contributions": [
+      {
+        "feature": "age",
+        "label": "Вік авто 10 р. (2016)",
+        "value": "10",
+        "impact": 3754.0
+      },
+      {
+        "feature": "gearbox",
+        "label": "КПП: автомат",
+        "value": "auto",
+        "impact": 844.0
+      },
+      {
+        "feature": "fuel",
+        "label": "Пальне: дизель",
+        "value": "diesel",
+        "impact": 768.0
+      },
+      {
+        "feature": "condition",
+        "label": "Стан: непошкоджене",
+        "value": "undamaged",
+        "impact": 290.0
+      },
+      {
+        "feature": "engine_l",
+        "label": "Двигун 2.0 л",
+        "value": "2.0",
+        "impact": 247.0
+      },
+      {
+        "feature": "model",
+        "label": "Модель Passat",
+        "value": "Passat",
+        "impact": 217.0
+      },
+      {
+        "feature": "region",
+        "label": "Регіон: Львівська",
+        "value": "lviv",
+        "impact": -178.0
+      },
+      {
+        "feature": "mileage_km",
+        "label": "Пробіг 187 000 км",
+        "value": "187000",
+        "impact": -178.0
+      },
+      {
+        "feature": "_other",
+        "label": "Інші фактори",
+        "value": "",
+        "impact": 146.0
+      }
+    ]
+  },
+  "model_version": "car-price@2026-10-19"
+}
